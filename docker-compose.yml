@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  httpd-service:
+    build: .
+    volumes:
+      - /media/ujjawalmandhani/32a56d3f-c2cb-4f68-9611-45d1f3eb5638/home/ujjawal/Desktop/peer/:/usr/local/apache2/htdocs/
+    ports:
+      - 9077:80
